@@ -1,0 +1,21 @@
+import javax.swing.*; 
+
+public class UserInfo {
+	public static void main(String[] args) {
+		JFrame jFrame = new JFrame("User Infromation");
+		UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
+        //重新整理jf容器及其內部元件的外觀
+        SwingUtilities.updateComponentTreeUI(jFrame);
+        jFrame.setSize(1024,400);
+        jFrame.setVisible(true);  
+        
+        JPanel panel = new JPanel();
+        jFrame.add(panel);
+        
+        initComponents();
+	}
+	private static void initComponents(Jpanel panel) {
+		
+	}
+
+}

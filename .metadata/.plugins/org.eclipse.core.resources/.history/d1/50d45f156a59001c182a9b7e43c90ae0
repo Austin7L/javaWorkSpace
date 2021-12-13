@@ -1,0 +1,10 @@
+import javax.swing.*; 
+
+public class UserInfo {
+
+	public static void main(String[] args) {
+		JFrame jFrame = new JFrame("User Infromation");
+		System.out.println("Hello World!");
+	}
+
+}
